@@ -1,0 +1,616 @@
+#nav {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    padding: 0%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+}
+
+#nav>img {
+    width: 100px;
+    margin-top: -25px;
+    height: 100px;
+    margin-right: 180px;
+    margin-left: 10px;
+
+}
+.dropbtn>span {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.dropbtn,
+.btn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-left: 19px;
+    vertical-align: middle;
+    background-color: white;
+
+}
+
+.fom {
+    width: 60px;
+    height: 33px;
+    border: none;
+    margin: auto;
+    margin-right: -100px;
+    border-radius: 7px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 11%);
+}
+
+.fom:hover {
+    color: rgb(43, 181, 176);
+}
+
+.fom1 {
+    width: 75px;
+    height: 33px;
+    margin: auto;
+    border: none;
+    margin-right: 14px;
+    background-color: rgb(43, 181, 176);
+    border-radius: 7px;
+}
+
+.btn:hover {
+    color: rgb(43, 181, 176);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: rgb(43, 181, 176);
+}
+
+#app-sec {
+    text-align: center;
+    margin: auto;
+}
+
+#app-sec>h1 {
+    font-size: 33px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 180px;
+}
+
+#app-sec>p {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#app {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    margin: auto;
+    grid-template-rows: repeat(1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#app>div>img {
+    border-radius: 50%;
+    width: 39px;
+    height: 39px;
+    padding: 13px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#seo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    column-gap: 35px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#seo img {
+    border-radius: 50%;
+    width: 39px;
+    height: 39px;
+    padding: 13px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#app>div>div>img {
+    border-radius: 50%;
+    width: 39px;
+    height: 39px;
+    padding: 13px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#app>div img:hover,
+#seo img:hover {
+    position: relative;
+    bottom: 5px;
+}
+
+#app>div:nth-child(1) div {
+    margin-left: 20px;
+}
+
+#imgcp>img {
+    width: 1100px;
+    height: 900px;
+}
+
+#form1 {
+    margin: auto;
+    text-align: center;
+    width: 58%;
+    align-items: center;
+    height: 500px;
+    border: 1.1px solid rgb(43, 181, 176);
+    align-items: center;
+    padding: auto;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#form1>img {
+    width: 50px;
+    height: 50px;
+    padding-top: 50px;
+}
+
+#form1>h1 {
+    font-size: 44px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+#form1>input+button {
+    margin-left: -114px;
+    padding: 9px;
+    background-color: rgb(43, 181, 176);
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#form1>br+button {
+    width: 510px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    margin-right: -5px;
+    border-radius: 7px;
+    color: black;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 17px;
+}
+
+#form1>br+button:hover {
+    color: rgb(43, 181, 176);
+    ;
+}
+
+#form1>br+button img {
+    width: 28px;
+    height: 24px;
+    vertical-align: middle;
+    padding-right: -10px;
+
+}
+
+#email {
+    width: 490px;
+    height: 50px;
+    padding-left: 13px;
+    border-radius: 7px;
+    background-color: rgb(240, 233, 233);
+    color: white;
+    border: none;
+}
+
+#email:hover {
+    border: rgb(43, 181, 176);
+}
+
+#form1 p {
+    margin: auto;
+    font-size: large;
+    width: 65%;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+#prize {
+    margin: auto;
+    width: 55%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#prize>img {
+    margin: auto;
+    width: 80px;
+    height: 106px;
+}
+
+#service {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(6, 1fr)
+}
+
+#service>div {
+
+    padding: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#service>div>h4 {
+
+    font-size: 14px;
+    color: rgb(43, 181, 176);
+}
+
+#service>div>p:hover {
+
+    color: rgb(43, 181, 176);
+}
+
+#last {
+    display: flex;
+}
+
+#last>p {
+    margin-left: 20px;
+}
+
+#last img {
+    width: 100px;
+    height: 60px;
+}
+#ff{
+    margin: auto;
+}
+#log{
+    margin: auto;
+}
+@media screen and (min-width:700px) and (max-width: 930px) {
+    #nav {
+        display: none;
+    }
+
+    #app-sec>h1 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 180px;
+    }
+
+    #app-sec>p {
+        font-size: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #app {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        margin: auto;
+        margin-top: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #seo {
+        display: grid;
+        justify-content: center;
+        margin: auto;
+        column-gap: 35px;
+        margin-top: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    #seo>div:nth-child(1) {
+        position: relative;
+        top: -161px;
+        left: 100px;
+    }
+
+    #seo>div:nth-child(2) {
+        position: relative;
+        top: -130px;
+    }
+
+    #imgcp>img {
+        width: 700px;
+        height: 600px;
+        margin-top: -100px;
+    }
+
+    #app-sec>h1 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 180px;
+    }
+
+    #form1 {
+        margin: auto;
+        text-align: center;
+        width: 55%;
+        align-items: center;
+        height: 460px;
+        border: 1.1px solid rgb(43, 181, 176);
+        align-items: center;
+        padding: auto;
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    #email {
+        width: 330px;
+        height: 40px;
+        padding-left: 13px;
+        border-radius: 7px;
+        background-color: rgb(240, 233, 233);
+        color: white;
+        border: none;
+    }
+
+    #form1>br+button {
+        width: 330px;
+        height: 40px;
+        border: none;
+        background-color: white;
+        margin-right: -5px;
+        border-radius: 7px;
+        color: black;
+        margin-top: 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width: 700px) {
+
+
+    #nav {
+        display: none;
+    }
+
+    #service {
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2);
+
+    }
+
+    #form1 {
+        margin: auto;
+        text-align: center;
+        width: 65%;
+        align-items: center;
+        height: 470px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+    }
+
+    #email {
+        width: 230px;
+        height: 30px;
+        padding-left: 0px;
+        border-radius: 7px;
+        margin-left: -20px;
+
+    }
+
+    #form1>br+button {
+        width: 230px;
+        height: 25px;
+        border: none;
+
+        color: black;
+        margin-top: 16px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 15px;
+    }
+    #form1>h1{
+        font-size: 37px;
+    }
+    #form1>input+button {
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+        margin-left: -98px;
+    }
+
+    #imgcp>img {
+        width: 500px;
+        height: 400px;
+        margin-top: -100px;
+    }
+
+    #app {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        margin: auto;
+        margin-top: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #seo {
+        display: grid;
+
+        margin: auto;
+        column-gap: 35px;
+        margin-top: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 19%;
+
+    }
+
+    #seo>div:nth-child(1) {
+        position: relative;
+        top: -181px;
+        left: 70px;
+    }
+
+    #seo>div:nth-child(2) {
+        position: relative;
+        top: -130px;
+    }
+
+
+}
+@media screen and (max-width:500px){
+
+
+
+    #nav {
+        display: none;
+    }
+
+    #service {
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2);
+
+    }
+
+    #form1 {
+        margin: auto;
+        text-align: center;
+        width: 70%;
+        align-items: center;
+        height: 390px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    #email {
+        width: 230px;
+        height: 30px;
+        padding-left: 0px;
+        border-radius: 7px;
+        margin-left: -20px;
+
+    }
+    #form1>p{
+        font-size: 17px;
+    
+    }
+    #form1>img{
+        margin-top: -17px;
+    }
+
+    #form1>br+button {
+        width: 230px;
+        height: 25px;
+        border: none;
+
+        color: black;
+        margin-top: 16px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 15px;
+    }
+    #form1>h1{
+        font-size: 23px;
+        margin-top: 10px;
+    }
+    #form1>input+button {
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+        margin-left: -98px;
+    }
+#form1>img{
+    margin-top: -34px;
+}
+    #imgcp>img {
+        width: 500px;
+        height: 400px;
+        margin-top: -100px;
+    }
+
+    #app {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        margin: auto;
+        margin-top: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #seo {
+        display: grid;
+
+        margin: auto;
+        column-gap: 35px;
+        margin-top: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 19%;
+
+    }
+
+    #seo>div:nth-child(1) {
+        position: relative;
+        top: -181px;
+        left: 70px;
+    }
+
+    #seo>div:nth-child(2) {
+        position: relative;
+        top: -130px;
+    }
+
+
+}
+
+
+
