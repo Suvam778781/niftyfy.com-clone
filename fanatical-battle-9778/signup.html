@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div id="imgg">
+        <div class="article">
+            <h2><span class="label">COMING SOON</span> Reporting Dashboard</h2>
+            <p>Powerful reporting to keep you on top of your business and workload. Customize your dashboard to gain
+                insights and make informed decisions.</p>
+
+
+            <img class="main" src="https://nifty.pm/static/media/main.9818dcc508e7ef1f7d96.png" alt="Feature">
+        </div>
+        <div id="fom">
+            <div>
+                <h2>Create New Account</h2>
+                <label for="name" class="field-label">Name</label>
+                <br>
+                <input type="text" name="" placeholder="Enter Name" id="name">
+                <br>
+                <label for="login-email" class="field-label">Email Address</label>
+                <br>
+                <input type="text" name="" placeholder="name@company.com" id="email">
+                <br>
+                <label for="login-email" class="field-label"> Create Password</label>
+                </div>
+                <input type="text" name="" placeholder="Password" id="password">
+                <br>
+                <button id="btn">
+                    Sign Up
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+
+    let array=JSON.parse(localStorage.getItem("SignUp-data"))|| []
+let p=document.getElementById("btn");
+p.addEventListener("click",mfunction);
+
+let obj={
+
+nam:document.querySelector("#name").value,
+emai:document.querySelector("#email").value,
+pass:document.querySelector("#password").value
+}
+   function mfunction(){
+let obj={
+nam:document.querySelector("#name").value,
+emai:document.querySelector("#email").value,
+pass:document.querySelector("#password").value
+}
+if (document.querySelector("#name").value!==""&&document.querySelector("#email").value!==""&&document.querySelector("#password").value!=="") {
+    alert("Signup Succesfully Please Login")
+    window.location.href="login.html"
+}
+else{
+    alert("Please Fill All The Data")
+}
+array.push(obj)
+localStorage.setItem("SignUp-data",JSON.stringify(array))
+}
+</script>

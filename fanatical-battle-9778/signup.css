@@ -1,0 +1,83 @@
+#email,
+#password,#name{
+    width: 400px;
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+#imgg>div>img{
+    width: 100%;
+}
+#imgg{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+#imgg>div{
+    width:39%;
+    padding: 20px;
+    margin: auto;
+
+}
+.label{
+
+    height:10px ;
+    font-size: 15px;
+    color: white;
+    border-radius: 15px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 3px;
+
+}
+.article>h2{
+    height:20px;
+
+    font-size: large;
+}
+
+#imgg {
+    display: flex;
+    width: 82%;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+.label{
+    background-color: #e98e60;
+    height:10px ;
+    font-size: 15px;
+    color: white;
+    border-radius: 15px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 3px;
+}
+.article>h2{
+    height:20px;
+
+    font-size: large;
+}
+
+#imgg {
+    display: flex;
+    width: 82%;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#btn{
+    width: 400px;
+    height: 38px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+   background:rgb(17, 142, 140);
+   border: none;
+}
+
