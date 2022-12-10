@@ -37,7 +37,7 @@ github - https://github.com/Suvam778781/dusty-hat-6390/tree/main/timelify.com
 
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/KGL75Q1/2022-12-11-1.png(1035).png?raw=true)
+![App Screenshot](https://i.ibb.co/KGL75Q1/2022-12-11-1(1035).png?raw=true)
 
 ![App Screenshot](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1036).png?raw=true)
 ![Screenshot (32)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1037).png?raw=true)
