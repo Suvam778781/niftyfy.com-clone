@@ -1,10 +1,7 @@
 
 # Timelyfy.com-Clone
 
-Get live cricket scores, scorecard updates, match schedule, predictions & results, stats, latest news & videos of all international, domestic & T20 series. We Created the Sign-in and Sign-up functionality.
-Created Live news pages and live news video pages also providing functionality like sorting whatever we need click on the option and data will be sorted
-Good UI with resposive
-
+Forget timers, note taking and manual input—Timely can track time spent in every web and desktop app automatically for you. Get a precise daily record of all the time you spend in documents, meetings, emails, websites and video calls with zero effort. It's all 100% private to you.
 
 
 ## 🔗 Links
@@ -18,9 +15,10 @@ github - https://github.com/Suvam778781/dusty-hat-6390/tree/main/timelify.com
 
 * Login Page
 * SignUp Page
-* live News pages
-* live VideoNews Pages
+* landing page
+* integration page
 * navbar
+* footer
 * some more pages
 
 
@@ -37,30 +35,13 @@ github - https://github.com/Suvam778781/dusty-hat-6390/tree/main/timelify.com
 
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/KGL75Q1/2022-12-11-1(1035).png?raw=true)
+![App Screenshot](https://i.ibb.co/KGL75Q1/2022-12-11-1.png(1035).png?raw=true)
 
-![App Screenshot](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1036).png?raw=true)
-![Screenshot (32)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1037).png?raw=true)
+![App Screenshot](https://i.ibb.co/8c2Yq3z/2022-12-11-2.png(1036).png?raw=true)
+![Screenshot (32)](https://i.ibb.co/k2gWmkx/2022-12-11-3.png(1037).png?raw=true)
 
-![Screenshot (33)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1038).png?raw=true)
-![Screenshot (34)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1039).png?raw=true)
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1040).png?raw=true)
-
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1041).png?raw=true)
-
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1042).png?raw=true)
-
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1043).png?raw=true)
-
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1044).png?raw=true)
-
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1045).png?raw=true)
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1046).png?raw=true)
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1047).png?raw=true)
-![Screenshot (35)](https://github.com/Adarsh-nihal/Github-image/blob/main/Cricket.Com/Screenshot%20(1048).png?raw=true)
-
-
-
-
+![Screenshot (33)](https://i.ibb.co/TYyybTB/2022-12-11-4.png(1038).png?raw=true)
+![Screenshot (34)](https://i.ibb.co/6HKwt82/2022-12-11-5.png(1039).png?raw=true)
+<!-- ![Screenshot (35)]((1040).png?raw=true) -->
 
 
