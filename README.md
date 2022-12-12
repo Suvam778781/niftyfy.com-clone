@@ -1,6 +1,6 @@
 
 
-# Timelyfy.com-Clone
+# Niftypm.com-Clone
 
 Forget timers, note taking and manual input—Timely can track time spent in every web and desktop app automatically for you. Get a precise daily record of all the time you spend in documents, meetings, emails, websites and video calls with zero effort. It's all 100% private to you.
 
